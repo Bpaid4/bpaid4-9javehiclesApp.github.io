@@ -1,0 +1,454 @@
+   /* ======================================== */
+/* Outside Page Navigation Styling Start    */
+/* ======================================== */
+.top-nav {
+    background-color: #1a1b1b;
+    display: flex;
+    padding-left: 40px;
+  }
+  
+  .top-nav a {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+  
+  .top-nav a:nth-child(1) {
+    color: white;
+    border-bottom: 7px solid #fff;
+  }
+  
+  .top-nav a:nth-child(1) span {
+    font-weight: bold;
+  }
+  
+  .top-nav a:hover {
+    color: black;
+    background-color: white;
+  }
+  
+  /* ============================= */
+  /* Outside Page Navigation End   */
+  /* ============================= */
+  
+  /* ======================= */
+  /* Page Nav Styling Start  */
+  /* ======================= */
+  .nav-container {
+    height: 50px;
+    padding-top: 20px !important;
+  }
+  
+  .explore-dropdown {
+    display: none;
+    margin-top: 50px !important;
+    z-index: 2;
+  }
+  
+  .explore-label {
+    padding: 7px 14px !important;
+    background-color: #0056d2 !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+  }
+  
+  #explore-checked:checked ~ .explore-dropdown {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* width: 100vw; */
+    height: 200vh;
+    /* background-color: rgba(0, 0, 0, 0.7) !important; */
+    background-color: #fff !important;
+  }
+  
+  #explore-checked:checked ~ label {
+    background-color: #fff !important;
+    color: #0056d2;
+    border: 3px solid black;
+  }
+  
+  .explore-dropdown-content {
+    padding: 10px 30px 200px;
+    height: 90vh;
+    overflow-y: scroll !important;
+  }
+  
+  .overflo{
+    overflow-y: auto !important;
+    
+  }
+  
+  .explore-dropdown-content p {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .explore-dropdown-content ul {
+    list-style-type: none;
+    margin-left: -31px;
+  }
+  
+  .explore-dropdown-content ul li label {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+  
+  .explore-dropdown-content ul li label:hover {
+    color: #0056d2 !important;
+    cursor: pointer;
+  }
+  
+  .explore-dropdown-content ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px 0;
+  }
+  
+  .explore-dropdown-content ul li a:hover {
+    color: #0056d2;
+  }
+  
+  .explore-dropdown-content button {
+    display: block;
+    margin: 30px 0 50px !important;
+    padding: 10px 20px;
+    border: 3px solid #0056d2;
+    font-weight: 700;
+  }
+  
+  .explore-dropdown-content button a {
+    text-decoration: none;
+    color: #0056d2 !important;
+  }
+  
+  [type="search"] {
+    color: gray !important;
+    font-size: 13px !important;
+    padding: 7px 0 7px 10px !important;
+    border-radius: 5px 0px 0px 5px;
+    /* width: 200px !important; */
+  }
+  
+  .search-bar span {
+    padding-top: 8px !important;
+    border-radius: 0 5px 5px 0 !important;
+    background-color: #0056d2 !important;
+  }
+  
+  .nav-right {
+    width: 12% !important;
+  }
+
+  
+  .nav-right > p > a {
+    text-decoration: none;
+    padding-top: 10px !important;
+    font-size: 13px !important;
+  }
+  
+  .nav-right-find > a {
+    width: 100% !important;
+  }
+  
+  .nav-right-login {
+    color: #0056d2 !important;
+    margin-right: -50px !important;
+  }
+  
+  .nav-right-btn {
+    padding: 10px 0px !important;
+    background-color: #0056d2 !important;
+    font-size: 12px !important;
+    width: 75% !important;
+  }
+  /* ===================== */
+  /* Page Nav Styling End  */
+  /* ===================== */
+  
+  
+  /* =============================== */
+  /* Small Screen Nav Styling Start  */
+  /* =============================== */
+  .menu-icon {
+    opacity: 0;
+  }
+  
+  .menu-icon button span svg {
+    display: none !important;
+  }
+  
+  .menu-icon-content ul {
+    list-style-type: none;
+  }
+  
+  .menu-icon-content div p {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    margin-left: 10px !important;
+  }
+  
+  .menu-icon-content ul li {
+    margin: 30px 0 10px -20px !important;
+  }
+  
+  .menu-icon-content ul li a {
+    text-decoration: none;
+    font-size: 15px !important;
+    color: black !important;
+  }
+  
+  .menu-icon-content ul hr {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+  
+  .navbar .navbar-toggler {
+    border: none !important;
+    background-color: #0056d2 !important;
+    color: #fff !important;
+  }
+  
+  .most-popular-flex div p:nth-child(1) {
+    margin-bottom: 2px !important;
+    margin-top: 15px !important;
+    font-size: 18px !important;
+  }
+  
+  .most-popular-flex div p:nth-child(2) {
+    color: #505050 !important;
+  }
+  
+  .small-scr-search {
+    display: none !important;
+  }
+  
+  .small-scr-logo {
+    display: none !important;
+  }
+
+
+
+
+
+
+.head{
+    font-size: 24px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+/* The first slide statrts here */
+.lrg1{
+    background-image: url() !important;
+    background-size: cover;
+    height: 42vh !important;
+    filter: brightness(0.8);
+   
+    
+    
+}
+.lrg1 p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 25px; 
+}
+
+.lrg1:hover{
+    cursor: pointer;
+    filter: brightness(0.6);
+}
+
+
+.ft1{
+    background-image: url() !important;
+    background-size: cover;
+    height: 20vh !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    filter: brightness(0.8);
+}
+.ft1:hover{
+    cursor: pointer;
+    filter: brightness(0.6);
+}
+
+
+.ft2{
+    background-image: url() !important;
+    background-size: cover;
+    height: 20vh !important;
+    margin-top: 30px !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    filter: brightness(0.8);
+}
+.ft2:hover{
+    cursor: pointer;
+    filter: brightness(0.6);
+}
+
+.ft3{
+    background-image: url() !important;
+    background-size: cover;
+    height: 20vh !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    filter: brightness(0.8);
+}
+.ft3:hover{
+    cursor: pointer;
+    filter: brightness(0.6);
+}
+
+.ft4{
+    background-image: url() !important;
+    background-size: cover;
+    height: 20vh !important;
+    margin-top: 30px !important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    filter: brightness(0.8);
+}
+.ft4:hover{
+    cursor: pointer;
+    filter: brightness(0.6);
+}
+/* End of the first slide */
+
+
+.col-4{
+    height: 20vh;
+    border: 10px;
+   
+}
+
+.CM{
+    gap: 20px;
+}
+
+
+.card:hover{
+    transform: scale(1.05); /* Adjust the scale factor based on your preference */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow effect */
+    cursor: pointer;
+
+}
+
+.main{
+    background-color: aliceblue;
+}
+
+.cMain{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.card-img-top{
+    border-radius: 10px !important;
+    object-fit: cover !important;
+}
+
+
+.cadMain .card{
+    border: 10px solid white;
+    border-radius: 15px !important;
+    margin-top: 18px;
+    
+   
+}
+
+.col-md-6 h2{
+    font-size: 25px;
+}
+
+.custom-button{
+    background-color: #fff;
+    border: 1px solid blue;
+    color: rgb(63, 63, 214);
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: -10px;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+
+
+
+.descrip{
+    margin-top: 50px;
+}
+
+.descrip h4{
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.flx-main{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+
+.cdBody h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cdBody p{
+    font-size: 13px;
+    
+}
+
+
+
+/* Here is css for the decription section */
+.des{
+    margin-bottom: 50px;
+}
+
+.des h4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.left{
+
+    align-self: center;
+}
+
+.right{
+  
+    align-self: center;
+}
+
+span{
+   align-items: center;
+}
+
+.Lef{
+    padding: 5px;
+    background-color: rgb(228, 228, 228) ;
+    width: 120px;
+    text-align: center !important;
+    align-self: center;
+}
+/* Description section css ends here */

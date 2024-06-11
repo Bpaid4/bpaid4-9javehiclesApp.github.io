@@ -1,0 +1,79 @@
+/* Footer design starts here */
+.backgrond{
+    background-color: rgb(243, 243, 243);
+  }
+ 
+  .footer_9javehicles a{
+    display: block;
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    font-weight: normal;
+    font-size: 14px;
+   
+  }
+  .footer_9javehicles{
+    display: flex;
+    padding: 20px 0px;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid lightgray;
+  }
+  .footer_9javehicles h5{
+    padding-bottom: 15px;
+   
+  }
+  .footer_9javehicles a:hover{
+    text-decoration: underline;
+  }
+  .mobile_app img{
+    width: 10rem;
+    height: 3rem;
+    margin-top: 12px;
+    
+  }
+  .b_cert img{
+    width: 5rem;
+    height: 8rem;
+    margin-left: 3rem;
+  }
+  
+  /* Copyright and socials */
+  
+  .soci-ials{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    border-top: 1px solid lightgray;
+    position: relative;
+  }
+  .copy_right span{
+    padding-left: 3rem;
+  }
+  .copy_right{
+    position: absolute;
+  }
+  .social_media a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    padding: 0px 10px; 
+  }
+  
+  .so-cia {
+   position: absolute;
+   right: 3rem;
+  }
+  
+  @media (max-width:600px){
+    /* Footer here */
+  
+  .so-cia{
+    margin-top: 1.5rem;
+  
+  }
+ 
+  }
+
+  
